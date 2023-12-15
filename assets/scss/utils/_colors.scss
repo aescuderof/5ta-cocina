@@ -1,0 +1,36 @@
+$colors: (
+    'common': (
+        'white': #ffffff,
+        'black': #000,
+        '1': #FCF6EF,
+    ),
+    'heading': (
+        'primary': #00334C,
+    ),
+    'grey': (
+        '1':#F1F1F1,
+        '2':#F5F6F8,
+        '3': #F5F2ED,
+    ),
+    'text': (
+        'body':#232323,
+        '1':#00334C,
+    ),
+    'theme': (
+        'primary': #00334C,
+        'secondary': #F7E6D4,
+        '3': #F0DED6,
+        '4': #C3E3F2,
+        '5': #FDF2ED,
+        '6': #FAEFEB,
+        '7': #F0E3D2,
+    ),
+    'border': (
+        'primary': #000,
+        'secondary': #000,
+    )
+);
+
+$white : #fff;
+$theme-primary : #3D6CE7;
+$border-primary : #000;
