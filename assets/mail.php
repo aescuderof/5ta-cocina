@@ -87,7 +87,7 @@
 
         //Email Header
 
-        $head = " /// Theme_Pure Vamary \\\ ";
+        $head = " /// 5ta Cocina \\\ ";
 
 
 
