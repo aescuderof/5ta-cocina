@@ -152,19 +152,19 @@ li,
   --tp-common-white: #ffffff;
   --tp-common-black: #000;
   --tp-common-1: #FCF6EF;
-  --tp-heading-primary: #481E0B;
+  --tp-heading-primary: #00334C;
   --tp-grey-1: #F1F1F1;
   --tp-grey-2: #F5F6F8;
   --tp-grey-3: #F5F2ED;
-  --tp-text-body: #6A5952;
-  --tp-text-1: #481E0B;
-  --tp-theme-primary: #CD5F37;
+  --tp-text-body: #00334C;
+  --tp-text-1: #00334C;
+  --tp-theme-primary: #C6E6F6;
   --tp-theme-secondary: #F7E6D4;
   --tp-theme-3: #F0DED6;
-  --tp-theme-4: #FFD056;
+  --tp-theme-4: #C6E6F6;
   --tp-theme-5: #FDF2ED;
-  --tp-theme-6: #FAEFEB;
-  --tp-theme-7: #F0E3D2;
+  --tp-theme-6: #DAEBF2;
+  --tp-theme-7: #C6E6F6;
   --tp-border-primary: #000;
   --tp-border-secondary: #000;
   /**
@@ -465,7 +465,7 @@ img {
   margin-top: -15px;
   width: 30px;
   height: 30px;
-  border: 2px solid #CD5F37;
+  border: 2px solid #C6E6F6;
   box-sizing: border-box;
   z-index: 10000000;
   transition: all 0.08s linear;
@@ -500,7 +500,7 @@ img {
   width: 6px;
   height: 6px;
   z-index: 10000001;
-  background-color: #CD5F37;
+  background-color: #C6E6F6;
   transition: all 0.08s linear;
 }
 
@@ -1514,7 +1514,7 @@ div.demo img {
 }
 
 .under-line-theme a {
-  background-image: linear-gradient(#CD5F37, #CD5F37), linear-gradient(#CD5F37, #CD5F37);
+  background-image: linear-gradient(#C6E6F6, #C6E6F6), linear-gradient(#C6E6F6, #C6E6F6);
   display: inline;
   background-size: 0% 1px, 0 1px;
   background-position: 100% 100%, 0 100%;
@@ -1526,7 +1526,7 @@ div.demo img {
 }
 
 .under-line-heading a {
-  background-image: linear-gradient(#481E0B, #481E0B), linear-gradient(#481E0B, #481E0B);
+  background-image: linear-gradient(#00334C, #00334C), linear-gradient(#00334C, #00334C);
   display: inline;
   background-size: 0% 1px, 0 1px;
   background-position: 100% 100%, 0 84%;
@@ -1685,7 +1685,7 @@ div.demo img {
 /*  2.5 Preloader
 /*----------------------------------------*/
 #loading {
-  background-color: #CD5F37;
+  background-color: #C6E6F6;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -2715,7 +2715,7 @@ div.demo img {
   font-size: 18px;
   line-height: 1.5;
   color: var(--tp-common-white);
-  background-color: var(--tp-theme-primary);
+  background-color: var(--tp-text-1);
   padding: 4px 12px;
   border-radius: 16px;
   display: inline-block;
@@ -3179,7 +3179,7 @@ div.demo img {
   z-index: 999;
 }
 .transparent__header-4 .offcanvas-open-btn i {
-  color: #481E0B;
+  color: #00334C;
   background-color: transparent;
   line-height: 60px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -3287,13 +3287,13 @@ div.demo img {
 }
 .header-6 .header__top-content span {
   display: inline-block;
-  color: var(--tp-common-white);
+  color: var(--tp-text-1);
   padding: 12px 0;
   font-size: 18px;
   line-height: 1.5;
 }
 .header-6 .offcanvas-open-btn i {
-  color: #481E0B;
+  color: #00334C;
   background-color: transparent;
   line-height: 60px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -3356,7 +3356,7 @@ div.demo img {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
-  color: var(--tp-text-body);
+  color: var(--tp-text-1);
 }
 .header-7 .header__top a {
   font-weight: 400;
@@ -4345,7 +4345,7 @@ div.demo img {
   display: inline-block;
 }
 .tpbanner-list-4 span {
-  background-color: #CD5F37;
+  background-color: #C6E6F6;
   color: var(--tp-common-white);
   padding: 13px 23px;
   display: inline-block;
@@ -4644,7 +4644,7 @@ div.demo img {
   font-weight: 500;
   font-size: 24px;
   line-height: 1.5;
-  color: #481E0B;
+  color: #00334C;
   background: #FFD056;
   border-radius: 65px;
   display: inline-block;
@@ -5076,7 +5076,7 @@ div.demo img {
   position: absolute;
   left: -68px;
   z-index: 1;
-  background: #CD5F37;
+  background: #C6E6F6;
   box-shadow: 0px 25px 45px rgba(205, 95, 55, 0.3);
   border-radius: 65.5px;
   display: inline-block;
@@ -5263,7 +5263,7 @@ div.demo img {
   line-height: 80px;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #481E0B;
+  border: 2px solid #00334C;
   border-radius: 50%;
   display: inline-block;
   line-height: 72px;
@@ -5272,7 +5272,7 @@ div.demo img {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  color: #481E0B;
+  color: #00334C;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-6-arrow i svg, .slider-6-arrow span svg {
@@ -5809,7 +5809,7 @@ div.demo img {
   }
 }
 .postbox-post-title a {
-  background-image: linear-gradient(#CD5F37, #CD5F37), linear-gradient(#CD5F37, #CD5F37);
+  background-image: linear-gradient(#C6E6F6, #C6E6F6), linear-gradient(#C6E6F6, #C6E6F6);
   display: inline;
   background-size: 0% 2px, 0 2px;
   background-position: 100% 100%, 0 82%;
@@ -5840,7 +5840,7 @@ div.demo img {
   color: var(--tp-heading-primary);
   font-size: 18px;
   line-height: 1.5;
-  background-image: linear-gradient(#CD5F37, #CD5F37), linear-gradient(#CD5F37, #CD5F37);
+  background-image: linear-gradient(#C6E6F6, #C6E6F6), linear-gradient(#C6E6F6, #C6E6F6);
   display: inline;
   background-size: 0% 2px, 0 2px;
   background-position: 100% 100%, 0 102%;
@@ -6568,7 +6568,7 @@ blockquote cite::before {
   }
 }
 .blog-3-title a {
-  background-image: linear-gradient(#481E0B, #481E0B), linear-gradient(#481E0B, #481E0B);
+  background-image: linear-gradient(#00334C, #00334C), linear-gradient(#00334C, #00334C);
   display: inline;
   background-size: 0% 1px, 0 1px;
   background-position: 100% 100%, 0 82%;
@@ -6581,7 +6581,7 @@ blockquote cite::before {
 .blog-3-btn a {
   font-size: 20px;
   line-height: 1.5;
-  color: #CD5F37;
+  color: #C6E6F6;
 }
 .blog-3-btn a i {
   display: inline-block;
@@ -7015,11 +7015,12 @@ blockquote cite::before {
 }
 .footer-col-3 .footer-link {
   padding-bottom: 50px;
+	color: var(--tp-common-white);
 }
 .footer-col-3 .footer-link ul li {
   float: left;
   width: 33.33%;
-}
+color: var(--tp-common-white);}
 
 .footer-logo {
   margin-bottom: 28px;
@@ -7045,8 +7046,7 @@ blockquote cite::before {
   height: 56px;
   line-height: 56px;
   text-align: center;
-  border-radius: 50%;
-  border: 1px solid rgba(72, 30, 11, 0.1);
+  
   color: var(--tp-heading-primary);
   font-size: 20px;
   margin-right: 18px;
@@ -7060,7 +7060,7 @@ blockquote cite::before {
   }
 }
 .footer-social a:hover {
-  background-color: #CD5F37;
+  background-color: #C6E6F6;
   color: var(--tp-common-white);
 }
 .footer-title {
@@ -7074,24 +7074,27 @@ blockquote cite::before {
 .footer-link li {
   list-style: none;
   margin-bottom: 25px;
-}
+color: var(--tp-common-white);}
+
 .footer-link li:last-child {
   margin-bottom: 0;
-}
+color: var(--tp-common-white);}
+
 .footer-link li a {
   font-size: 20px;
   line-height: 1;
-  color: var(--tp-text-body);
-  display: inline-block;
+color: var(--tp-common-white);
+	display: inline-block;
   position: relative;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer-link li a {
     font-size: 18px;
+	  color: var(--tp-heading-primary);
   }
 }
 .footer-link li a:hover {
-  color: var(--tp-theme-primary);
+  color: var(--tp-heading-primary);
 }
 .footer-link li a:hover::before {
   opacity: 1;
@@ -7099,18 +7102,20 @@ blockquote cite::before {
   left: 0;
   right: auto;
   transition: all 0.2s linear;
+	color: var(--tp-heading-primary);
 }
 .footer-link li a::before {
   position: absolute;
   content: "";
   width: 0;
   height: 1px;
-  background: #CD5F37;
+  background: #C6E6F6;
   left: auto;
   right: 0;
   bottom: -1px;
   opacity: 0;
   transition: all 0.3s linear;
+	color: var(--tp-heading-primary);
 }
 .footer-input {
   width: 410px;
@@ -7251,13 +7256,14 @@ blockquote cite::before {
 .footer-2-col-4 .footer-link li span {
   font-size: 20px;
   line-height: 1;
-  color: var(--tp-text-body);
+  color: var(--tp-heading-primary);
   display: inline-block;
   position: relative;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer-2-col-4 .footer-link li span {
     font-size: 18px;
+	  color: var(--tp-heading-primary);
   }
 }
 
@@ -7408,6 +7414,7 @@ blockquote cite::before {
 
 .footer-top-4 .footer-link li {
   margin-bottom: 26px;
+	color: var(--tp-heading-primary);
 }
 .footer-top-4 .footer-link li a {
   color: var(--tp-common-white);
@@ -8145,7 +8152,7 @@ blockquote cite::before {
   text-align: center;
   border-radius: 50%;
   display: inline-block;
-  border: 1px solid #CD5F37;
+  border: 1px solid #C6E6F6;
   color: var(--tp-theme-primary);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -8443,8 +8450,8 @@ blockquote cite::before {
   }
 }
 .story-6-btn .tp-round-btn {
-  background-color: var(--tp-theme-4);
-  border-color: var(--tp-theme-4);
+  background-color: var(--tp-theme-primary);
+  border-color: var(--tp-theme-primary);
   color: var(--tp-heading-primary);
 }
 .story-6-btn .tp-round-btn:hover {
@@ -9063,7 +9070,7 @@ blockquote cite::before {
   line-height: 80px;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #481E0B;
+  border: 2px solid #00334C;
   border-radius: 50%;
   display: inline-block;
   line-height: 72px;
@@ -9072,7 +9079,7 @@ blockquote cite::before {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  color: #481E0B;
+  color: #00334C;
 }
 @media (max-width: 767px) {
   .team-3-single-arrow i svg, .team-3-single-arrow span svg,
@@ -9520,7 +9527,7 @@ blockquote cite::before {
   top: 0;
   height: 100%;
   width: 100%;
-  border: 1px solid #CD5F37;
+  border: 1px solid #C6E6F6;
   border-radius: 50%;
   transform: scale(0);
 }
@@ -9913,7 +9920,7 @@ blockquote cite::before {
   font-weight: 400;
   font-size: 40px;
   line-height: 1.3;
-  color: #481E0B;
+  color: #00334C;
   margin-bottom: 55px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -10476,7 +10483,7 @@ blockquote cite::before {
   content: "";
   width: 0;
   height: 4px;
-  background: #CD5F37;
+  background: #C6E6F6;
   left: auto;
   right: 0;
   bottom: -1px;
@@ -10485,7 +10492,7 @@ blockquote cite::before {
 }
 .services-5-title:hover {
   cursor: none;
-  color: #CD5F37;
+  color: #C6E6F6;
 }
 .services-5-img {
   position: absolute;
@@ -11195,7 +11202,7 @@ blockquote cite::before {
   text-align: center;
   border-radius: 50%;
   background-color: var(--tp-theme-6);
-  border: 2px solid #CD5F37;
+  border: 2px solid #C6E6F6;
   color: var(--tp-theme-primary);
   color: var(--tp-theme-primary);
   display: inline-block;
@@ -11343,7 +11350,7 @@ blockquote cite::before {
   width: 80px;
   line-height: 67px;
   text-align: center;
-  border: 2px solid #CD5F37;
+  border: 2px solid #C6E6F6;
   border-radius: 50%;
   display: inline-block;
   color: var(--tp-theme-primary);
@@ -11404,7 +11411,7 @@ blockquote cite::before {
   display: block;
 }
 .product-item-3-title a {
-  background-image: linear-gradient(#481E0B, #481E0B), linear-gradient(#481E0B, #481E0B);
+  background-image: linear-gradient(#00334C, #00334C), linear-gradient(#00334C, #00334C);
   display: inline;
   background-size: 0% 1px, 0 1px;
   background-position: 100% 100%, 0 100%;
@@ -11424,7 +11431,7 @@ blockquote cite::before {
 .product-item-3-price del {
   font-weight: 400;
   line-height: 1.5;
-  color: #481E0B;
+  color: #00334C;
   opacity: 0.7;
   margin-right: 8px;
 }
@@ -11457,7 +11464,7 @@ blockquote cite::before {
   transition: all 0.3s ease-out 0s;
 }
 .product-action a path, .product-action button path {
-  color: #CD5F37;
+  color: #C6E6F6;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -11671,7 +11678,7 @@ blockquote cite::before {
   line-height: 1.5;
   color: var(--tp-heading-primary);
   margin-bottom: 0;
-  background-image: linear-gradient(#481E0B, #481E0B), linear-gradient(#481E0B, #481E0B);
+  background-image: linear-gradient(#00334C, #00334C), linear-gradient(#00334C, #00334C);
   display: inline;
   background-size: 0% 1px, 0 1px;
   background-position: 100% 100%, 0 100%;
@@ -11906,7 +11913,7 @@ blockquote cite::before {
   }
 }
 .product-action-2 a path, .product-action-2 button path {
-  color: #CD5F37;
+  color: #C6E6F6;
   -webkit-transition: all 0.2s ease-out 0s;
   -moz-transition: all 0.2s ease-out 0s;
   -ms-transition: all 0.2s ease-out 0s;
@@ -12201,7 +12208,7 @@ blockquote cite::before {
   font-size: 24px;
   line-height: 1.5;
   color: var(--tp-common-black);
-  background-image: linear-gradient(#CD5F37, #CD5F37), linear-gradient(#CD5F37, #CD5F37);
+  background-image: linear-gradient(#C6E6F6, #C6E6F6), linear-gradient(#C6E6F6, #C6E6F6);
   display: inline;
   background-size: 0% 1px, 0 1px;
   background-position: 100% 100%, 0 93%;
@@ -12226,7 +12233,7 @@ blockquote cite::before {
   text-align: center;
   border-radius: 50%;
   background-color: transparent;
-  border: 2px solid #CD5F37;
+  border: 2px solid #C6E6F6;
   color: var(--tp-theme-primary);
   color: var(--tp-theme-primary);
   display: inline-block;
@@ -12361,7 +12368,7 @@ blockquote cite::before {
   line-height: 48px;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #CD5F37;
+  border: 1px solid #C6E6F6;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .tpfaq-3-accordion .accordion-button::after {
@@ -12482,7 +12489,7 @@ blockquote cite::before {
   top: -190px;
   width: 615px;
   height: 505px;
-  background-color: #CD5F37;
+  background-color: #C6E6F6;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .comming-soon-bg {
@@ -13037,6 +13044,8 @@ blockquote cite::before {
   padding: 23px 46px;
   font-weight: 700;
   font-size: 20px;
+	color: var(--tp-heading-primary);
+	border-radius: 40px;
 }
 
 .tpmap-wrapper {
