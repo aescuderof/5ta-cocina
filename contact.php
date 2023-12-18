@@ -465,7 +465,7 @@
 <table>
   <tbody>
     <tr id="line-58">
-      <td><pre>        $recipient = "contact@domain.com";  </pre></td>
+      <td><pre>        $recipient = "antoescudero@gmail.com";  </pre></td>
     </tr>
     <tr id="line-59"> </tr>
   </tbody>
