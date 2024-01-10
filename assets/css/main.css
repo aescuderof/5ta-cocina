@@ -650,7 +650,7 @@ div.demo img {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .gx-8 {
-    --bs-gutter-x: 30px;
+    --bs-gutter-x: 0;
   }
 }
 
