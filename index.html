@@ -459,11 +459,11 @@
          </section>
 		  
 		  
-		 <section class="brand-area theme-bg-7 pt-80 pb-80">
+		 <section class="brand-area theme-bg-7 pt-80 pb-80 ">
             <div class="container">
-               <div class="row">
+               <div class="row ">
                   <div class="col-xl-3 col-lg-3 col-md-6">
-                           <h4 class="brand-6-title">Se parte del Club de la 5ta</h4>
+                           <h4 class="brand-6-title"><strong>Se parte del Club de la 5ta</strong></h4>
                            <p>
                             ¡Entérate de todo y recibe descuentos especiales!                         
                            </p>
@@ -471,24 +471,25 @@
                      </div>
                   <div class="col-xl-6 col-lg-5 col-md-8">
                         <div class="mb-70 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                          
-                           <div class="footer-newsletter">
-                            
-                              <div class="footer-newsletter-wrap">
-                                 <form action="#">
-                                    <div class="footer-newsletter-wrapper">
-                                       <div class="footer-input">
-                                          <input type="email" placeholder="Email">
-                                       </div>
-										
-										<div class="story-6-btn footer-newsletter-submit">
-                           <a class="tp-round-btn" href="#.html">Suscribirme</a>
-                        </div>
-                                       
-                                    </div>
-                                 </form>
+                          <form id="contact-form" method="POST" action="assets/mail.php" >
+                           <div class="row gx-4">
+                              
+                              <div class="col-lg-6">
+                                 <div class="form-inner-input">
+                                    <input name="email" type="email" placeholder="Email">
+                                 </div>
                               </div>
+                              
+							   
+                              <div class="col-lg-6">
+                                 <div class="form-inner-btn">
+                                    <button type="submit" class="tp-btn">Suscribirme</button>
+                                 </div>
+                              </div>
+                              <p class="ajax-response"></p>
                            </div>
+                        </form>
+                           
                         </div>
                      </div>
                </div>
