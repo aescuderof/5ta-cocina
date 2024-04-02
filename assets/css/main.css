@@ -170,8 +170,8 @@ li,
   /**
   @font size
   */
-  --tp-fz-body: 20px;
-  --tp-fz-p: 24px;
+  --tp-fz-body: 18px;
+  --tp-fz-p: 22px;
 }
 
 * {
@@ -219,15 +219,15 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 34px;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 26px;
 }
 
 h4 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 h5 {
@@ -245,11 +245,11 @@ ul {
 
 p {
   font-family: var(--tp-ff-p);
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
   color: var(--tp-text-body);
   margin-bottom: 15px;
-  line-height: 30px;
+  line-height: 100%;
 }
 
 a:not([href]):not([class]),
@@ -2405,14 +2405,14 @@ div.demo img {
   z-index: -1;
 }
 .tpbreadcrumb-title {
-  font-size: 80px;
+  font-size: 60px;
   line-height: 1.1;
   color: var(--tp-common-white);
   margin-bottom: 17px;
 }
 @media (max-width: 767px) {
   .tpbreadcrumb-title {
-    font-size: 36px;
+    font-size: 32px;
   }
 }
 .tpbreadcrumb p {
@@ -2760,13 +2760,13 @@ div.demo img {
   }
 }
 .whitesection p {
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.5;
   color: var(--tp-common-white);
 }
 .whitesection-round-subtitle {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.5;
   color: var(--tp-heading-primary);
   background-color: var(--tp-theme-4);
@@ -2783,7 +2783,7 @@ div.demo img {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .menu-position {
-    margin-left: 25px;
+    margin-left: 5px;
   }
 }
 
@@ -3283,7 +3283,7 @@ div.demo img {
   color: var(--tp-heading-primary);
 }
 .header-6 .menu-position {
-  margin-left: 80px;
+  margin-left: 0px;
 }
 .header-6 .header__top-content span {
   display: inline-block;
@@ -3316,13 +3316,13 @@ div.demo img {
 /*  3.7 Header Style 7
 /*----------------------------------------*/
 .header-7 .logo {
-  padding: 0 40px;
+  padding: 0 20px;
   position: relative;
   display: inline-block;
 }
 @media (max-width: 767px) {
   .header-7 .logo {
-    padding: 0 15px;
+    padding: 0 0px;
   }
 }
 .header-7 .logo::before {
@@ -3527,8 +3527,8 @@ div.demo img {
 .main-menu ul li > a {
   display: inline-block;
   color: var(--tp-common-white);
-  padding: 35px 0;
-  font-size: 20px;
+  padding: 30px 0;
+  font-size: 18px;
   line-height: 1.5;
 }
 .main-menu ul li.has-dropdown > a {
@@ -5165,14 +5165,14 @@ div.demo img {
   }
 }
 .tpbanner-6-title {
-  font-size: 120px;
+  font-size: 80px;
   line-height: 1.1;
   color: var(--tp-common-white);
   margin-bottom: 36px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tpbanner-6-title {
-    font-size: 120px;
+    font-size: 80px;
     margin-bottom: 24px;
   }
 }
