@@ -132,9 +132,9 @@ li,
 }
 
 @font-face {
- font-family: "DM Sans";
-  src: url("../fonts/DMSans.woff") format("woff"), url("../fonts/DMSans.eot") format("eot"), url("../fonts/DMSans.ttf") format("ttf");
-  font-weight: 400 600 700;
+  font-family: "Virsace Bigiora";
+  src: url("../fonts/VirsaceBigiora-Regular.woff") format("woff"), url("../fonts/VirsaceBigiora-Regular.eot") format("eot"), url("../fonts/VirsaceBigiora-Regular.ttf") format("ttf");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -7042,8 +7042,8 @@ color: var(--tp-common-white);}
 }
 .footer-social a {
   display: inline-block;
-  width: 56px;
-  height: 56px;
+  width: 80px;
+  height: 80px;
   line-height: 56px;
   text-align: center;
   
@@ -7060,7 +7060,7 @@ color: var(--tp-common-white);}
   }
 }
 .footer-social a:hover {
-  background-color: #C6E6F6;
+ 
   color: var(--tp-common-white);
 }
 .footer-title {
