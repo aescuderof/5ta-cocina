@@ -7042,9 +7042,9 @@ color: var(--tp-common-white);}
 }
 .footer-social a {
   display: inline-block;
-  width: 40px;
-  height: 60px;
-  line-height: 60px;
+  width: auto;
+  height: 50px;
+  line-height: 100%;
   text-align: center;
   
   color: var(--tp-heading-primary);
