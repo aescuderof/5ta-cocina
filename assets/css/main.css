@@ -7037,16 +7037,17 @@ color: var(--tp-common-white);}
   }
 }
 .footer-social a {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
+ display: inline-block;
+  width: 80px;
+  height: 80px;
+  line-height: 56px;
   text-align: center;
-  
+
   color: var(--tp-heading-primary);
-  
-  margin: 1px;
+  font-size: 20px;
+  margin-right: 0px;
 }
+
 .footer-social a:last-child {
   margin-right: 0;
 }
