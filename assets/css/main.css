@@ -7049,7 +7049,7 @@ color: var(--tp-common-white);}
   
   color: var(--tp-heading-primary);
   font-size: 20px;
-  margin-right: 5px;
+  margin-right: 0px;
 }
 .footer-social a:last-child {
   margin-right: 0;
