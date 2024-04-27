@@ -2667,7 +2667,7 @@ div.demo img {
 }
 @media (max-width: 767px) {
   .tpsection-title {
-    font-size: 44px;
+    font-size: 38px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -2676,7 +2676,7 @@ div.demo img {
   }
 }
 .tpsection p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   color: var(--tp-text-body);
 }
