@@ -7047,13 +7047,12 @@ color: var(--tp-common-white);}
   font-size: 20px;
   margin-right: 0px;
 }
-
 .footer-social a:last-child {
   margin-right: 0;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer-social a {
-    margin-right: 12px;
+    margin-right: 0px;
   }
 }
 .footer-social a:hover {
@@ -7759,7 +7758,7 @@ color: var(--tp-common-white);
   margin-bottom: 0;
 }
 .footer-6 .footer-social a {
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  /*border: 1px solid rgba(255, 255, 255, 0.12);*/
   color: var(--tp-common-white);
 }
 
