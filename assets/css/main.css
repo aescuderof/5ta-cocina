@@ -1118,8 +1118,8 @@ div.demo img {
   font-weight: 500;
   font-size: 18px;
   border: 2px solid var(--tp-theme-primary);
-  border-radius: 40px;
-  padding: 23px 38px;
+  border-radius: 50px;
+  padding: 20px 17px;
   -webkit-transition: all 0.3s 0s ease-out;
   -moz-transition: all 0.3s 0s ease-out;
   -ms-transition: all 0.3s 0s ease-out;
