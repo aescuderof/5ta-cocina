@@ -13,7 +13,7 @@
         if(isset($_POST["name"])){
             $name = trim($_POST["name"]);
         }else{
-            $name = "hi";
+            $name = "hola";
         }
 
         // EMAIL
@@ -23,35 +23,35 @@
         if(isset($_POST["l_name"])){
             $name_2 = trim($_POST["l_name"]);
         }else{
-            $name_2 = "hi";
+            $name_2 = "hola";
         }
 
         // IF SUBJECT SET
         if(isset($_POST["subject"])){
             $subject = trim($_POST["subject"]);
         }else{
-            $subject = "hi";
+            $subject = "hola";
         }
 
         // IF PHONE SET
         if(isset($_POST["phone"])){
             $phone = trim($_POST["phone"]);
         }else{
-            $phone = "hi";
+            $phone = "hola";
         }
 
         // IF SUBJECT SET
         if(isset($_POST["subject"])){
             $subject = trim($_POST["subject"]);
         }else{
-            $subject = "hi";
+            $subject = "hola";
         }
 
         // IF MESSAGE SET
         if(isset($_POST["message"])){
             $message = trim($_POST["message"]);
         }else{
-            $message = "hi";
+            $message = "hola";
         }
 
 
@@ -63,7 +63,7 @@
 
             http_response_code(400);
 
-            echo "Please complete the form and try again.";
+            echo "Por favor completa el formulario e inténtalo nuevamente";
 
             exit;
 
@@ -81,7 +81,7 @@
 
         // Set the email subject.
 
-        $sender = "New contact from $name";
+        $sender = "Nuevo contacto de $name";
 
 
 
@@ -96,11 +96,11 @@
         $email_content = "$head\n\n\n";
 
         if(isset($_POST["name"])){
-            $email_content .= "Name: $name\n";
+            $email_content .= "Nombre: $name\n";
         }
 
         if(isset($_POST["name"]) AND isset($_POST["l_name"])){
-            $email_content .= "Name: {$name} {$name_2}\n";
+            $email_content .= "Nombre: {$name} {$name_2}\n";
         }
 
         
@@ -108,30 +108,30 @@
 
         // IF SET SUBJECT
         if(isset($_POST["subject"])){
-            $email_content .= "Subject: $subject\n\n";
+            $email_content .= "Asunto: $subject\n\n";
         }
 
 
         // IF SET PHONE
         if(isset($_POST["phone"])){
-            $email_content .= "Phone: $phone\n\n";
+            $email_content .= "Teléfono: $phone\n\n";
         }
 
         // IF SET PHONE
         if(isset($_POST["message"])){
-            $email_content .= "Message:\n$message\n";
+            $email_content .= "Mensaje:\n$message\n";
         }
 
 
         // Build the email headers.
 
         if(isset($_POST["name"])){
-            $email_headers = "From: $name <$email>";
+            $email_headers = "De: $name <$email>";
         }
 
 
         if(isset($_POST["name"]) AND isset($_POST["l_name"])){
-            $email_headers = "From: $name $name_2 <$email>";
+            $email_headers = "De: $name $name_2 <$email>";
         }
         
 
@@ -145,7 +145,7 @@
 
             http_response_code(200);
 
-            echo "Thank You! Your message has been sent.";
+            echo "Gracias, tu mensaje ha sido enviado. Nos pondremos en contacto lo más pronto posible";
 
         } else {
 
@@ -153,7 +153,7 @@
 
             http_response_code(500);
 
-            echo "Oops! Something went wrong and we couldn't send your message.";
+            echo "Oops! Algo salió mal y no pudimos enviar tu mensaje.";
 
         }
 
@@ -165,7 +165,7 @@
 
         http_response_code(403);
 
-        echo "There was a problem with your submission, please try again.";
+        echo "Hubo un problema con el envío, por favor intenta nuevamente";
 
     }
 
