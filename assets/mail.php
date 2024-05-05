@@ -81,13 +81,13 @@
 
         // Set the email subject.
 
-        $sender = "Nuevo contacto de $name";
+        $sender = "Contacto desde la web, de $name";
 
 
 
         //Email Header
 
-        $head = " /// 5ta Cocina \\\ ";
+        $head = " Web 5ta Cocina ";
 
 
 
@@ -153,7 +153,7 @@
 
             http_response_code(500);
 
-            echo "Oops! Algo salió mal y no pudimos enviar tu mensaje.";
+            echo "Oops! Algo salió mal y no pudimos enviar tu mensaje. Puedes enviarnos un correo directo a contacto@5tacocina.cl";
 
         }
 

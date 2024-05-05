@@ -8325,7 +8325,7 @@ color: var(--tp-common-white);
 .about-inner ul li span {
   margin-right: 8 px;
   display: inline-block;
-  color: var(--tp-theme-primary);
+ 
 }
 .about-inner-btn .tp-btn {
   padding: 23px 36px;
@@ -8334,18 +8334,7 @@ color: var(--tp-common-white);
   position: relative;
   display: inline-block;
 }
-.about-inner-thumb::before {
-  position: absolute;
-  content: "";
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 102%;
-  width: 102%;
-  border-radius: 300px;
-  z-index: -1;
-   
-}
+
 
 .process-5 {
   padding: 33px 32px;
@@ -8431,7 +8420,7 @@ color: var(--tp-common-white);
   font-weight: 400;
   font-size: 20px;
   line-height: 1.5;
-  color: var(--tp-text-body);
+ 
   display: inline-block;
   margin-bottom: 17px;
 }
